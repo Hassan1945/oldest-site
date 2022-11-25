@@ -1,0 +1,507 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+
+body
+{
+	font-family: 'Dosis', sans-serif;
+	width: 100%;
+}
+
+h1
+{
+	margin: 0 auto;
+	font-size: 3.3em;
+}
+h3
+{
+	margin: 0 auto;
+	font-size: 1.8em;
+}
+
+h5
+{
+	margin: 0 auto;
+	font-size: 30px;
+}
+
+.head-1,.head-2,.head-3
+{
+	color: red;
+	animation: hue 1s infinite linear;
+}
+@keyframes hue  {
+	0% {
+	   filter:hue-rotate(0deg);
+	}
+	
+	100% {
+	   filter:hue-rotate(-360deg);
+	}
+ 
+ }
+
+
+.hero
+{	
+	height: 680px;
+	width: 1015;
+	background: rgb(14, 18, 48);
+	color: #ffffff;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: safe center;
+}	
+
+.nav
+{
+	background-color: #8d8dec;
+	height: 50px;
+}
+.nav ul
+{
+	text-align: center;
+}
+.nav ul li
+{
+	list-style: none;
+	display: inline-block;
+}
+.nav ul li a
+{
+	text-decoration: none;
+	color: blue;
+	line-height: 44px;
+	padding: 0px 10px 0px 10px;
+}
+
+.zero
+{	
+	width: 100%;
+	text-align: center;
+	padding-top: 100PX;
+	padding-bottom: 100PX;
+	background-color: antiquewhite;
+}
+
+.OVER
+{
+	padding-top: 90PX;
+	width: 100%;
+	margin: AUTO;
+}
+
+.FIRST
+{
+	width: 33.33%;
+	float:LEFT;
+	padding:10PX 30PX 10PX 30PX ;
+}
+.FIRST IMG
+{
+	width: 110PX;
+	max-width: 100%;
+}
+.OVER
+{
+clear: BOTH;
+display: table;
+}
+.b{
+	background-color: rgb(132, 204, 24);
+	color: white;
+	border: 1px black solid;
+	padding: 3px 3px 3px 3px ;
+	cursor: pointer;
+	margin-top: 10px;
+}
+.CLAP
+{
+	background-image: url(img/clap.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: white;
+	text-align: center;
+	padding-left: 70PX;
+	padding-right: 70PX;
+	padding-bottom: 200px;
+	padding-top: 200px;
+	
+}
+
+.team
+{	
+	background-color: #fff7e1;
+	padding-BOTTOM: 300PX;
+	padding-top: 100px;
+	color: black;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	
+
+}
+
+/* TEAM END */
+
+.ft
+{
+
+	margin-top: 90px;
+	margin-bottom: 50px;
+}
+
+
+.ft after
+{
+	
+
+	text-align: center;
+	clear: both;
+	display: table;
+	content: "";
+	
+}
+
+.st
+{
+	background-color: #fff7e1;
+	float: left;
+	width: 33.33%;
+	padding: 10px 30px 10px 30px;
+	text-align: center;
+	align-items: center;
+
+}
+.st img
+{
+	
+	width: 220px;
+	max-width: 100%;
+	clear: both;
+	align-items: center;
+	text-align: center;
+}
+.tt
+{
+	padding-bottom: 20px;
+	max-width: 150px;
+	max-height: 170px;
+	box-shadow: 3px 3px 5px 5px grey;
+	clear: both;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 80px;
+	text-align: center;
+}
+
+.contact
+{
+
+	width: 100%;
+
+}
+.y
+{		
+	background-color: yellow;
+	color: blue;
+	width: 100%;
+	padding: 0px 10px 20px 10px;
+	text-align: center;
+	display:inline-table;	
+}		
+.c
+{	
+	display: inline;
+	padding-top: 8px;
+	padding-bottom: 53px;
+	height: 50px;
+	width:33.33%;
+	float: left;
+}
+.c h3
+{
+	display: inline;
+}
+
+/*contact coloumn starting*/
+
+.col
+{
+ 	display: table;
+ 	background-color: #e5e5e5;
+	width: 100%;
+	text-align: center;
+	padding: 30px 10px 30px 10px;
+}
+
+.col::after
+{
+
+	display: table;
+	content:"" ;
+}
+
+.col-1
+{
+	padding: 30px 10px 30px 10px;
+	text-align: center;
+	width: 35%;
+	float: left;
+}
+
+.col-2
+{
+
+float: left;
+width: 65%;
+padding-right: 30px;
+}
+
+.INSTAGRAM
+{
+	background-color:#c51d1d;
+	padding: 15px;
+	border: dashed black 1px;
+	color: WHITE;
+}
+
+.FACEBOOK
+{
+	background-color: #4747a7;
+	color: WHITE;
+	padding: 15px;
+	border: dashed black 1px;
+}
+.LINKEDIN
+{
+	color: WHITE;
+	background-color: #3d9ec0;
+	padding: 15px;
+	border: dashed black 1px;
+}
+
+.b:hover
+{
+	box-shadow: 0 0 11px rgba(204, 250, 135,2); 
+}
+.fab 
+{
+	transition: 2s;
+	cursor: pointer;
+	color: #fff;
+} 
+#social:hover 
+{
+	transform: scale(1.5); 
+}
+#social:hover
+{
+	border: solid 1px black;
+	box-shadow: 0 0 11px rgba(33,33,33,1.2); 
+}
+.form-col
+{
+	margin-top: 50px;
+	margin-bottom: 40px;
+	float: left;
+	width: 48%;
+	margin-right: 2%;
+	display: inlne;
+	text-align: left;
+}
+
+.fname,.femail
+{
+	width: 100%;
+	height: 35px;
+	border: none;
+	padding:0px 17px 0px 17px ;
+	margin-right: 10px;
+}
+.msg
+{
+	text-align: left;
+	height: 250px;
+	width: 100%;
+	
+	border: none;
+}
+
+
+.btn
+{
+	border: none;
+	padding-left: 9px;
+	padding-right: 9px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	background-color: #efff49;
+	outline: black solid 2px;
+}
+.ending
+{
+	width: 100%;
+	
+}
+
+.end-1
+{
+	background-color:#332935;	
+	color: white;
+	width: 33.33%;
+	float: left;
+	padding: 50px 40px 30px 40px;
+	text-align: left;
+}
+
+
+/*CSS MEDIA*/
+
+@media screen and (max-width: 702.98px)
+{
+	.FIRST{
+			width: 100%;
+	}
+	.FIRST p 
+	{
+		padding: 0 130px;
+	}
+	.st{
+			width: 100%;
+	}
+	.c{
+		width: 100%;
+		padding: 10px 0;
+	}
+	.y 
+	{
+		height: 100%;
+		padding: 20px;
+	}
+	.c i,.c h3 
+	{
+		font-size: 30px;
+	}
+	.col-2
+	{
+		padding: 20px;
+		margin: 0 auto;
+	}
+	button.btn 
+	{
+		margin-top: 5% !important;
+	}
+	.end-1 h3,.end-1 p
+	{
+		text-align: center;
+		margin: auto;
+		width: 60% !important;
+	}
+	.tt 
+	{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.CLAP{
+			width:100%;
+	}
+	.col-1{
+		width: 100%;
+	}
+	.col-2{
+		width: 100%;
+	}
+	.end-1{
+		width: 100%;
+	}
+	.hero{
+		width: 100%;
+	}
+}
+
+
+
+@media (max-width:991.98px)
+{
+	.navigation
+	{
+		display: none;
+	}
+	.navigation.active 
+    {
+		transition: 5s;
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 400%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+		background-color: #8d8dec;
+        z-index: 10; 
+    }
+	.zero.active
+	{
+		margin-top: 150px;
+	}
+	.toggle
+	{
+		position: relative;
+        width: 30px;
+        height: 30px;
+		top: 20%;
+        background: url(img/menu.png);
+        background-size: 30px;
+		margin: auto;
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+        z-index: 10000;
+	}
+	.toggle.active
+    {
+        position: relative;
+        background: url(img/close.png);
+        float: left;
+		left: 40px;
+		top: -185px;
+        background-size: 25px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+
+@media (max-width:359.98px) 
+{
+	h1
+	{
+		margin: 0 auto;
+		font-size: 2.3em;
+	}
+	h3
+	{
+		margin: 0 auto;
+		font-size: 1.2em;
+	}
+
+	h5
+	{
+		margin: 0 auto;
+		font-size: 20px;
+	}
+}
+
+
+
+
